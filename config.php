@@ -2,27 +2,27 @@
 
 /*Site Theme - Themes include:
 'default', 'minimal-nologo', 'do-blue', 'do-green', 'do-black', 'do-yellow, 'do-red', 'do-purple', 'do-brown', 'do-white', 'do-orange', 'do-pink' */
-$theme = "default";
+$theme = "minimal-nologo";
 
 //Page Title
-$pagetitle = "My Minecraft Server | Ban Appeal";
+$pagetitle = "StoneClan | Ban Appeal";
 
-$servername = "My Server PvP";
+$servername = "StoneClan Server";
 
 //Logo link - where should the user be redirected to when they click the logo?
 $logolink = "index.php"; // Leave at index.php for the homepage
 
 //Do you want a dropdown / select box for players to say what they are appealing e.g. mute, ban, forum ban
-$appealoptions = false; // Set true for options, false for no options
+$appealoptions = true; // Set true for options, false for no options
 
 
 /* ------ E-Mail Settings ------ */
 
 //Where should ban appeal forms be sent to for review? - This will be ignored if you're using custom/SMTP settings
-$sendto = "bans@myserver.com";
+$sendto = "matthewhyson2003@gmail.com";
 
 //Where should E-Mails be sent from (for confirmation emails) - This will be ignored if you're using custom/SMTP settings
-$sendfrom = "no-reply@myserver.com";
+$sendfrom = "matthewhyson2003@gmail.com";
 
 
 //SMTP SETTINGS//
@@ -30,11 +30,11 @@ $sendfrom = "no-reply@myserver.com";
 $customemail = false;
 
 //Custom/SMTP EMail Settings
-$customemailhost = "mail.myemailserver.com"; //Host for the E-Mail SMTP settings
-$customemailport = 587; //Port for the E-Mail SMTP settings
-$customemailusername = "myemail@email.com"; //Username for the E-Mail SMTP settings (used for sending and receiving ban appeals/confirmations)
-$customemailpass = "mypassword"; //Password for the E-Mail SMTP settings
-$custommailsecure = false; //Encrypt your E-Mails? You should try and use this. Supports TLS.
+$customemailhost = "smtp.elasticemail.com"; //Host for the E-Mail SMTP settings
+$customemailport = 2525; //Port for the E-Mail SMTP settings
+$customemailusername = "StoneClan-noreply-@gmail.com"; //Username for the E-Mail SMTP settings (used for sending and receiving ban appeals/confirmations)
+$customemailpass = "2E87E07A55549CF5E0EB30A833B8CEB5FA09"; //Password for the E-Mail SMTP settings
+$custommailsecure = true; //Encrypt your E-Mails? You should try and use this. Supports TLS.
 $customemaildelay = 2; //How long in seconds shall we add a delay between E-Mails being sent out? (some email servers have maximum email restrictions, a safe default is 0-10 seconds)
 $customemaildebug = false; //Enable debug/testing mode?
 //END OF SMTP SETTINGS//
@@ -56,7 +56,7 @@ $successnotice = "<div class='return' style='background-color:green;'><strong>Su
 
 //Shall we use Google's anti-spam bot CAPTCHA? I recommend you do to prevent spam. 
 //IF YOU CHOOSE TRUE, YOU MUST CONFIGURE IT BELOW (see the DOCUMENTATION & SUPPORT.txt file for details).
-$captcha = true;
+$captcha = false;
 //CAPTCHA config:
 $sitekey = "ENTER SITE KEY";
 $secretkey = "ENTER SECRET KEY";
@@ -79,7 +79,7 @@ $appealdenied = "Hello, <br><br>Thank you for taking the time to appeal your ban
 $appealdeniedsubject = "Ban Appeal Response";
 
 //Please enter a password here that we can use to securely send ban appeal accepted/denied emails
-$replykey = "CHANGEME"; // I recommend you change this if an Admin leaves the team
+$replykey = "SSundee12"; // I recommend you change this if an Admin leaves the team
 
 /* --- End of Accept/Deny Email Info --- */
 
